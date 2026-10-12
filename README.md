@@ -264,6 +264,7 @@ All routes are under `/api` (see `/docs` for interactive OpenAPI docs once runni
 
 Requirements: Python 3.11+, Node 20+, PostgreSQL (or use the SQLite fallback for local dev).
 
+
 # Backend
 cd backend
 python -m venv venv 
