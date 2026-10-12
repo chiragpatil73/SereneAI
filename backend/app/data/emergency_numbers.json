@@ -1,0 +1,32 @@
+{
+  "_note": "Configurable per-country emergency and support numbers. Edit this file to add or correct a country; no code change needed. Verify every number for your deployment region before real-world use.",
+  "default": {
+    "country": "XX",
+    "name": "Your country",
+    "emergency_number": "112",
+    "emergency_label": "Emergency Services",
+    "note": "112 works in many countries. Use the emergency number for where you are.",
+    "helplines": []
+  },
+  "countries": {
+    "IN": {"name": "India", "emergency_number": "112", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "Tele-MANAS (mental health support)", "number": "14416"}]},
+    "US": {"name": "United States", "emergency_number": "911", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "988 Suicide & Crisis Lifeline", "number": "988"}]},
+    "CA": {"name": "Canada", "emergency_number": "911", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "988 Suicide Crisis Helpline", "number": "988"}]},
+    "GB": {"name": "United Kingdom", "emergency_number": "999", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "Samaritans", "number": "116 123"}]},
+    "IE": {"name": "Ireland", "emergency_number": "112", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "Samaritans", "number": "116 123"}]},
+    "AU": {"name": "Australia", "emergency_number": "000", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "Lifeline", "number": "13 11 14"}]},
+    "NZ": {"name": "New Zealand", "emergency_number": "111", "emergency_label": "Emergency Services",
+           "helplines": [{"name": "1737 Need to talk?", "number": "1737"}]},
+    "DE": {"name": "Germany", "emergency_number": "112", "emergency_label": "Emergency Services", "helplines": []},
+    "FR": {"name": "France", "emergency_number": "112", "emergency_label": "Emergency Services", "helplines": []},
+    "ES": {"name": "Spain", "emergency_number": "112", "emergency_label": "Emergency Services", "helplines": []},
+    "IT": {"name": "Italy", "emergency_number": "112", "emergency_label": "Emergency Services", "helplines": []},
+    "NL": {"name": "Netherlands", "emergency_number": "112", "emergency_label": "Emergency Services", "helplines": []}
+  }
+}
